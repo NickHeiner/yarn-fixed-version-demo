@@ -1,11 +1,10 @@
 {
-  "name": "@nick.heiner/yarn-fixed-version-demo-root",
+  "name": "yarn-fixed-version-demo-dependency-of-root",
   "version": "1.0.0",
   "description": "Experimenting to see how yarn interprets versions when doing updates",
   "main": "index.js",
   "repository": "git@github.com:NickHeiner/yarn-fixed-version-demo.git",
   "author": "Nick Heiner <nheiner@netflix.com>",
   "license": "MIT",
-  "workspaces": ["root", "dependency-of-root", "dep-of-both"],
-  "private": true
+  "workspaces": ["root", "dependency-of-root", "dep-of-both"]
 }
