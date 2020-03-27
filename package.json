@@ -6,6 +6,6 @@
   "repository": "git@github.com:NickHeiner/yarn-fixed-version-demo.git",
   "author": "Nick Heiner <nheiner@netflix.com>",
   "license": "MIT",
-  "workspaces": ["root", "dependency-of-root", "dep-of-both"],
+  "workspaces": ["@nick.heiner/*"],
   "private": true
 }
